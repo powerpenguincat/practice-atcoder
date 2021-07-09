@@ -1,6 +1,6 @@
 def question(n, an):
     exn = n
-    exan = list(map(int, an.split()))
+    exan = map(int, an.split())
 
     results = []
     for ai in exan:
