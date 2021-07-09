@@ -1,10 +1,10 @@
 def question(nab):
-    n, a, b = map(int, nab.split())
+    exn, exa, exb = map(int, nab.split())
 
     result = 0
-    for ni in range(n + 1):
+    for ni in range(exn + 1):
         sums = sum(map(int, list(str(ni))))
-        if a <= sums <= b:
+        if exa <= sums <= exb:
             result += ni
 
     return f"{result}"
