@@ -6,7 +6,7 @@ from practice_atcoder.abs.otoshidama import question
 
 class Test(object):
     csv_file = "tests/abs/test_otoshidama.csv"
-    csv_data = list(pd.read_csv(csv_file, sep=", ", quotechar='"', engine="python"))
+    csv_data = list(pd.read_csv(csv_file, sep=", ", engine="python"))
     answer = map(lambda s: s.replace('"', ''), csv_data)
 
     @pytest.mark.parametrize("ny,expect", [
