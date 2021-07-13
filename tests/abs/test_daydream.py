@@ -10,4 +10,4 @@ class Test(object):
         ("dreamerer", "NO"),
     ])
     def test(self, s, expect):
-        assert True #question(s) == expect
+        assert question(s) == expect
