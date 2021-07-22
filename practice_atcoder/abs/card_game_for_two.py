@@ -1,5 +1,5 @@
 def question(n, an):
-    exn = int(n)
+    _ = int(n)
     exan = map(int, an.split())
 
     sorted_exan = reversed(sorted(exan))

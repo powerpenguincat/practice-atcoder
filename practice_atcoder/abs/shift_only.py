@@ -1,5 +1,5 @@
 def question(n, an):
-    exn = n
+    _ = n
     exan = map(int, an.split())
 
     results = []

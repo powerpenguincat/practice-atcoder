@@ -1,8 +1,8 @@
 def question(n, txyn):
     exn = int(n)
-    exts = [0 for i in range(exn+1)]
-    exxs = [0 for i in range(exn+1)]
-    exys = [0 for i in range(exn+1)]
+    exts = [0 for _ in range(exn+1)]
+    exxs = [0 for _ in range(exn+1)]
+    exys = [0 for _ in range(exn+1)]
     for i, txyi in enumerate(txyn):
         ext, exx, exy = map(int, txyi.split())
         exts[i+1] = ext

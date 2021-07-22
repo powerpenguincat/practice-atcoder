@@ -1,5 +1,5 @@
 def question(n, pn):
-    exn = int(n)
+    _ = int(n)
     expn = list(map(int, pn.split()))
 
     p = 1
